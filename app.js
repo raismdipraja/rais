@@ -36,5 +36,5 @@ db.once('open', ()=> {
 
 // listen
 app.listen(process.env.PORT, ()=> {
-    console.log(`Server Running in ${process.env.PORT}`)
+    console.log(`Server Running in ${process.env.PORT}`) || 8080
 })
